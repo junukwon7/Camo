@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+// I'm too lazy to get the size via header info. Just resize the picture before execution.
 #define WIDTH 1024
 #define HEIGHT 768
 #define HEADER 54
@@ -63,11 +64,11 @@ int main( )
         COLOR[i] *= ((float)10000 / colorsum);
         printf("%f\n", COLOR[i]);
     }
-    mt19937 engine((unsigned int)time(NULL));                    // MT19937 난수 엔진
-    uniform_int_distribution<int> distribution(0, 10000);       // 생성 범위
+    mt19937 engine((unsigned int)time(NULL));                    // MT19937 random generator
+    uniform_int_distribution<int> distribution(0, 10000);       // distribution
     auto generator = bind(distribution, engine);
 
-    for(i=0; i<HEIGHT; i+=16)
+    for(i=0; i<HEIGHT; i+=16) // The value can be modified. It's the scale.
     {
         for(j=0; j<WIDTH; j+=16)
         {
