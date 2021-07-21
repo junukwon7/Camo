@@ -2,7 +2,7 @@
 Camo is a multi-scale camouflage generator using simple quantization.
 
 # Descriptions
-This program gets 1024 by 768 24-bit bmp file as input. It automatically quantizes and maps colors and generates top-10 color tones regard to the ratio. Because the program generates the pattern using quantaization the quality doesn't matter.
+This program gets a 1024 by 768 24-bit bmp file as input. It automatically quantizes and maps colors and generates top-10 color tones regard to the ratio. Because the program generates the pattern using quantaization the quality doesn't matter.
 
 # Examples
 | Input            |  Output |
