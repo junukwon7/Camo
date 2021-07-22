@@ -14,5 +14,5 @@ This program gets a 1024 by 768 24-bit bmp file as input. It automatically quant
 ![in8 - Copy](https://user-images.githubusercontent.com/48399106/126507612-3f1f0fd4-a6dd-4da9-a494-0222ddd6fa69.png) | ![AnyConv com__camo_div16_8](https://user-images.githubusercontent.com/48399106/126507767-9343e39d-023a-48f3-8c21-50af86ab3160.png)
 ![in10 - Copy](https://user-images.githubusercontent.com/48399106/126507614-569ac4ee-7106-40e3-8545-3ac57043c2ac.png) | ![AnyConv com__camo_div16_10](https://user-images.githubusercontent.com/48399106/126507789-ae8f8e19-2e69-4967-8838-131a60544064.png)
 
-# Purpose of the project
+# Project info
 This project was made by Junu Kwon(gs19007). In Gyeonggi Science High School, Informatics 1 class. Advisor(Teacher) was [Melongist](https://github.com/melongist)
